@@ -73,7 +73,7 @@ fun ContactItem(modifier: Modifier = Modifier, icon: Painter, text: String) {
         modifier = modifier
             .fillMaxWidth(),
 
-        verticalAlignment = Alignment.CenterVertically // Center vertically
+        verticalAlignment = Alignment.CenterVertically
     ) {
         Image(
             painter = icon,
